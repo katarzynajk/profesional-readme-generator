@@ -1,0 +1,19 @@
+{
+  "name": "profesional-readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katarzynajk/profesional-readme-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katarzynajk/profesional-readme-generator/issues"
+  },
+  "homepage": "https://github.com/katarzynajk/profesional-readme-generator#readme"
+}
