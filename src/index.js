@@ -1,6 +1,5 @@
-console.log("hello from node JS");
-// import inquirer library //
 const inquirer = require("inquirer");
+const fs = require("fs");
 
 // list includes all the questions to prompt the user //
 const mainQuestions = [
@@ -60,15 +59,15 @@ const generateReadMe = (answers) => {
   - [Tests](#tests)
   - [Questions](#questions)
   ## Description
-  ${answers.title}
+  ${answers.description}
   ## Installation
   Please follow the instructions below:
   \`\`\`
-  ${answers.usage}
+  ${answers.installation}
   \`\`\`
   ## Usage
-  Please follow the instructions below:
   \`\`\`
+  ${answers.usage}
   npm run start
   \`\`\`
   ## License
@@ -92,6 +91,7 @@ const init = async () => {
 
   // then Generate the Readme file
   const readMe = generateReadMe(answers);
+  fs.writeFileSync("generatedReadMe.md", readMe);
 };
 
 // start the application
