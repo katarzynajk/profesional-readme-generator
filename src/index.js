@@ -68,19 +68,18 @@ const generateReadMe = (answers) => {
   ## Usage
   \`\`\`
   ${answers.usage}
-  npm run start
   \`\`\`
   ## License
   ${answers.license}
   ## Contributing
   ${answers.contributors}
   ## Tests
-  Please follow the instructions below:
+  Test process for the application:
   \`\`\`
   ${answers.tests}
   \`\`\`
   ## Questions
-  Please contact me on my email: ${answers.email}
+  Please contact me on my email: [CLICK](${answers.email})
   `;
 };
 
