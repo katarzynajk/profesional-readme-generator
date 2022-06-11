@@ -25,6 +25,10 @@ npm install
 npm start
 ```
 
+## Video Link
+
+### Watch the video walk-through of the application [CLICK](https://www.loom.com/share/a345e659d9cb45caad727fd78b42cab5)
+
 ## Screenshots
 
 ### Start of the application
@@ -44,3 +48,5 @@ npm start
 Contact me via email [CLICK](kat.d.jaromin@gmail.com)
 <br>
 Contact me via GitHub [CLICK](https://github.com/katarzynajk)
+<br>
+Contact me via LinkedIn [CLICK](https://www.linkedin.com/in/katarzyna-jaromin-kaliciak-b281b5234/)
